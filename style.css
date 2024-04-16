@@ -1,0 +1,98 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scrollbar-width: thin;
+    scroll-behavior: smooth;
+scrollbar-color: #1D1E4C #e5e5fd;
+
+    
+}
+
+.container{
+overflow-x: hidden;
+    background-color: #e5e5fd;
+    height: 100vh;
+    width: 100vw;
+        border: 10px solid #1D1E4C;
+        padding: 10px;
+
+
+
+}
+.top_section{
+    margin: 5vmax 7vmax 0vmax 7vmax;
+    margin-bottom: none;
+    padding-left: 8%;
+    padding-right: 20%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+
+}
+.top_section .image_section {
+    border-radius: 50%;
+    overflow: hidden;
+    filter: drop-shadow(0 0 0.75rem rgb(171, 168, 168));
+    border:1px solid rgb(179, 177, 177);
+
+
+}
+.top_section .image_section img{
+
+    width: 17vmax;
+    height:16vmax
+}
+.top_section h1{
+    font-size: 2.7vmax;
+    text-transform: uppercase;
+   font-weight: bold;
+   color: #1D1E4C;
+   text-shadow: 1px 1px 2px #ffffff;
+   padding-right: none;
+}
+.top_section h4{
+    font-size: 1.5vmax;
+   font-weight: bold;
+  text-align: end;
+}
+.about_section{
+    padding-left: 15vmax;
+    padding-right: 6vmax;
+    overflow-x: hidden;
+}
+h2{
+    font-size: 2vmax;
+    text-align: start;
+   text-shadow: 1px 1px 2px #a4c3f8;
+    text-transform: capitalize;
+    color: #1D1E4C;
+    margin: 2vmax 0% 2vmax 0%;
+}
+p{
+    font-size: 1.2vmax;
+    text-align: justify;
+    text-decoration: none;
+    margin: 0% 0% 2vmax 0%;
+    line-height: 1.8vmax;
+    letter-spacing: 0.1vmax;
+    font-weight: 400;
+
+}
+span{
+    font-size: 1.3vmax;
+}
+dt{
+        margin: 0 0 0.1vmax 0;
+        line-height: 1.8vmax;
+        font-size: 1.3vmax;
+
+}
+dd{
+    font-size: 1.2vmax;
+    text-align: justify;
+    margin:  0.2vmax 0 0 0;
+    letter-spacing: 0.1vmax;
+    font-weight: 400;
+
+}
